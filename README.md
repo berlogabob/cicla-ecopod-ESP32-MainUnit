@@ -420,7 +420,7 @@ void loop() {
 - Minimal pause delayMicroseconds(1000).
 
 
-```Mermaid
+```mermaid
 flowchart TD
     A["Start: Power On ESP32"] --> B["setup()"]
     B --> B1["Initialize Serial Monitor"]
