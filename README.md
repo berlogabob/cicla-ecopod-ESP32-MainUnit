@@ -155,7 +155,7 @@ devices/
 
 <details>
 <summary>Push to, Alternative mermaid diagram</summary>
-
+```mermaid
 graph TD
     Devices["devices/"] --> Pod["Pod_01_base_01/"]
 
@@ -200,7 +200,7 @@ graph TD
     style SensorWeights fill:#d1c4e9,stroke:#4527a0
     style LightMode fill:#fff3e0,stroke:#ef6c00
     style ConnectionPackage fill:#ffe0b2,stroke:#ef6c00
-
+```
 
 </details>
 ## Final Code
