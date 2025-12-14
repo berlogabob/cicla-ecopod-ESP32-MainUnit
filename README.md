@@ -42,7 +42,8 @@ GPIO25 ── LED (anod) ── 220-330Ω resistor ── GND (cathode)
 - LED: Anod to GPIO25, cathode through resistor to GND for PWM brightness control.
 
 ### Push to, Alternative mermaid diagram
-
+<details>
+<summary>Открыть Mermaid диаграмму логики проекта</summary>
 
 ```mermaid
 flowchart TD
