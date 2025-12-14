@@ -1,5 +1,5 @@
 # cicla-ecopod-ESP32-MainUnit
-
+![ESP32 Main Unit](circuit_image.png)
 
 # ESP32 Light Control AI Project Report
 
@@ -419,7 +419,7 @@ void loop() {
 - Calls sendDataToFirebase.
 - Minimal pause delayMicroseconds(1000).
 
-
+### Main Logic Flowchart
 ```mermaid
 flowchart TD
     A["Start: Power On ESP32"] --> B["setup()"]
