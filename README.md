@@ -112,6 +112,7 @@ flowchart TD
     style P2 fill:#bbdefb
 
 ```
+</details>
 
 ## Firebase Structure
 
