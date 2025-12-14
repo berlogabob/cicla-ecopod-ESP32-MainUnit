@@ -41,6 +41,22 @@ GPIO25 ── LED (anod) ── 220-330Ω resistor ── GND (cathode)
 - Photoresistor: One end to 3.3V, other to GPIO pin and 10kΩ to GND (voltage divider).
 - LED: Anod to GPIO25, cathode through resistor to GND for PWM brightness control.
 
+Alternative mermaid diagram
+
+```mermaid
+graph LR
+    A[Photoresistor] -->|3.3V| B(GPIO34)
+    B -->|10kΩ| C(GND)
+    A -->|3.3V| D(GPIO35)
+    D -->|10kΩ| E(GND)
+    A -->|3.3V| F(GPIO32)
+    F -->|10kΩ| G(GND)
+    A -->|3.3V| H(GPIO33)
+    H -->|10kΩ| I(GND)
+    J[LED] -->|GPIO25| K(LED anod)
+    K -->|220-330Ω| L(GND)
+```
+
 ## Firebase Structure
 
 The structure is hierarchical, with unique device ID. Settings are configurable remotely.
