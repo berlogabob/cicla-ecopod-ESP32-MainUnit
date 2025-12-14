@@ -41,9 +41,9 @@ GPIO25 ── LED (anod) ── 220-330Ω resistor ── GND (cathode)
 - Photoresistor: One end to 3.3V, other to GPIO pin and 10kΩ to GND (voltage divider).
 - LED: Anod to GPIO25, cathode through resistor to GND for PWM brightness control.
 
-### Push to, Alternative mermaid diagram
+
 <details>
-<summary>Открыть Mermaid диаграмму логики проекта</summary>
+<summary>### Push to, Alternative mermaid diagram</summary>
 
 ```mermaid
 flowchart TD
