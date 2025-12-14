@@ -43,7 +43,7 @@ GPIO25 ── LED (anod) ── 220-330Ω resistor ── GND (cathode)
 
 
 <details>
-<summary>### Push to, Alternative mermaid diagram</summary>
+<summary>Push to, Alternative mermaid diagram</summary>
 
 ```mermaid
 flowchart TD
