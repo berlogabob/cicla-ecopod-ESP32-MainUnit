@@ -1,0 +1,39 @@
+{
+  "devices": {
+    "Pod_01_base_01": {
+      "avg_light": 1293,
+      "brightness": 78,
+      "sensors": {
+        "sensor_weights": {
+          "sensor0": 1,
+          "sensor1": 1,
+          "sensor2": 1,
+          "sensor3": 1
+        },
+        "sensors_data": {
+          "sensor0": 1609,
+          "sensor1": 1042,
+          "sensor2": 1327,
+          "sensor3": 1194
+        }
+      },
+      "settings": {
+        "connection_package": {
+          "qty_reading_sensors_in_second": 10,
+          "send_interval": 1,
+          "sensor_buffer_time": 1
+        },
+        "light_mapping": {
+          "light_threshold": 1400,
+          "min_light": 1000,
+          "target_light": 1500
+        },
+        "light_mode": {
+          "manual_override": 0,
+          "manual_toggle": 0
+        }
+      },
+      "timestamp": 371
+    }
+  }
+}
